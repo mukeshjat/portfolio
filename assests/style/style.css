@@ -184,9 +184,10 @@ justify-content: center;
   }
   .skills {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: var(--previewShadow);
     color: var(--mainText);
+    flex-wrap: wrap;
   }
   .skills ul{
       margin: 16px 0;
@@ -202,6 +203,8 @@ justify-content: center;
   }
   #social_img {
     width: 100%;
+    max-width: 100%;
+    height: auto;
   }
   .social-title {
     margin: 0;
